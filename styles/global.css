@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --primary-color: #E3E7F1;
+html {
+    margin: 0;
+    font-size: 62.5%;
 }
 
 

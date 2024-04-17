@@ -1,0 +1,6 @@
+.dashboardContainer {
+    display: grid;
+    gap: 2.4rem;
+    height: 100vh;
+    margin: 2.4rem;
+}
