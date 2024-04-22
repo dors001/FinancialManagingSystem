@@ -1,0 +1,61 @@
+.calcContainer {
+    padding: 1.2rem;
+    width: 30rem;
+    height: 35rem;
+    font-size: 1.5rem;
+    background: linear-gradient(180deg, rgba(36,39,47,1) 0%, rgba(36,39,47,1) 47%, rgba(104,113,135,1) 93%, rgba(114,124,149,1) 100%);
+}
+
+textarea.descContent {
+    margin: 1rem 0;
+    padding: 1rem;
+    height: 10rem;
+    width: 100%;
+    overflow: auto;
+    resize: none;
+    box-sizing: border-box;
+    border: 3px solid #45444A;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(152,156,167,1) 0%, rgba(192,195,206,1) 20%, rgba(236,236,236,1) 58%);
+}
+
+input.amountContent {
+    margin: 1rem 0;
+    height: 6rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: 3px solid #45444A;
+    background: linear-gradient(180deg, rgba(152,156,167,1) 0%, rgba(192,195,206,1) 20%, rgba(236,236,236,1) 58%);
+    padding: 1rem;
+}
+
+.descContent {
+    background-color: transparent;
+}
+
+.amountContainer {
+
+}
+
+.amountHeader {
+    color: white;
+}
+
+.amountContent {
+
+}
+
+.amountBtnsGrp {
+
+}
+
+.amountBtn {
+}
+
+.calcBtnsGrp {
+
+}
+
+.calcBtn {
+
+}

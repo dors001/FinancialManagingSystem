@@ -1,10 +1,10 @@
 import React from "react";
-import Dashboard from "./dashboard";
+import Calculator from "@/components/calculator/Calculator";
 
 const HomePage = () => {
   return (
     <>
-
+      <Calculator />
     </>
   );
 };
