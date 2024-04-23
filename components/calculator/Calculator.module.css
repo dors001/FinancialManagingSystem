@@ -1,3 +1,17 @@
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .molengo-regular {
+    font-family: "Molengo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .calcContainer {
     padding: 1.2rem;
     width: 30rem;
@@ -7,6 +21,10 @@
 }
 
 textarea.descContent {
+    font-family: "Molengo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
     margin: 1rem 0;
     padding: 1rem;
     height: 10rem;
@@ -20,6 +38,10 @@ textarea.descContent {
 }
 
 input.amountContent {
+    font-family: "Molengo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
     margin: 1rem 0;
     height: 6rem;
     width: 100%;
@@ -33,29 +55,64 @@ input.amountContent {
     background-color: transparent;
 }
 
-.amountContainer {
-
-}
-
-.amountHeader {
-    color: white;
-}
-
-.amountContent {
-
-}
-
 .amountBtnsGrp {
-
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .amountBtn {
+    width: 8rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    background-color: #7A7A7A;
+    border: 2px solid #6A6565;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: 600;
+    transition: border 0.2s ease;
+}
+
+.amountBtn:hover {
+    border: 2px solid #9a9490;
+}
+
+.amountBtn:active {
+    background-color: #383030;
 }
 
 .calcBtnsGrp {
-
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1.5rem 0;
 }
 
-.calcBtn {
+.calcBtnMinus {
+    width: 12rem;
+    height: 6rem;
+    border-radius: 1rem;
+    background-color: #383D42;
+    border: 3px solid #F14949;
+    align-content: center;
+    transition: border 0.2s ease;
+}
 
+.calcBtnPlus {
+    width: 12rem;
+    height: 6rem;
+    border-radius: 1rem;
+    background-color: #383D42;
+    border: 3px solid #61DD83;
+    align-content: center;
+    transition: border 0.2s ease;
+}
+
+.calcBtnMinus:hover, .calcBtnPlus:hover {
+    border: 3px solid white;
+}
+
+.calcBtnMinus:active, .calcBtnPlus:active {
+    background-color: #26282e;
 }

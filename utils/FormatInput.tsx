@@ -11,3 +11,5 @@ const formatInput = (field: HTMLInputElement): void => {
     field.value = field.value.substring(0, 5);
   }
 };
+
+export default formatInput;
